@@ -67,6 +67,7 @@
 
   <!-- -->
   <project path="external/junit" name="platform/external/junit" groups="pdk" />
+  <project path="external/unicode" name="platform/external/unicode" groups="pdk" />
   
   <!-- -->
   <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" />
