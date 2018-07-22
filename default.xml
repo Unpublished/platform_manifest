@@ -2,7 +2,7 @@
 <manifest>
 
   <remote  name="github"
-           fetch="https://github.com" />
+           fetch=".." />
   <remote  name="aosp"
            fetch="https://android.googlesource.com"
            review="https://android-review.googlesource.com/" />
@@ -10,7 +10,7 @@
            remote="aosp"
            sync-j="4" />
 
-  <project path="build" name="platform/build" groups="pdk" remote="github" revision="nougat-mr2-release">
+  <project path="build" name="platform_build" groups="pdk" remote="github" revision="nougat-mr2-release">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" />
