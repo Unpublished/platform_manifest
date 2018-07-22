@@ -64,6 +64,9 @@
   <project path="system/media" name="platform/system/media" groups="pdk" />
   <project path="system/netd" name="platform/system/netd" groups="pdk" />
   <project path="system/tools/aidl" name="platform/system/tools/aidl" groups="pdk" />
+
+  <!-- -->
+  <project path="external/junit" name="platform/external/junit" groups="pdk" />
   
   <!-- -->
   <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" />
